@@ -76,27 +76,37 @@ function summarizeUpcomingMatch(match) {
 
 async function gotoAndSettle(page, url) {
   let lastError;
+  const retryableErrors = [
+    "ERR_HTTP2_PROTOCOL_ERROR",
+    "ERR_NETWORK_CHANGED",
+    "ERR_CONNECTION_RESET",
+    "ERR_EMPTY_RESPONSE",
+  ];
 
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
-      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
+      if (attempt > 1) {
+        await page.waitForTimeout(4000 * attempt);
+      }
+
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 120000 });
       await page
-        .waitForLoadState("networkidle", { timeout: 30000 })
+        .waitForLoadState("networkidle", { timeout: 45000 })
         .catch(() => {});
+      await page.waitForTimeout(2500);
       return;
     } catch (error) {
       lastError = error;
       const message = String(error?.message || error);
-      const shouldRetry =
-        message.includes("ERR_HTTP2_PROTOCOL_ERROR") ||
-        message.includes("ERR_NETWORK_CHANGED") ||
-        message.includes("ERR_CONNECTION_RESET");
+      const shouldRetry = retryableErrors.some((entry) =>
+        message.includes(entry),
+      );
 
       if (!shouldRetry || attempt === 3) {
         throw error;
       }
 
-      await page.waitForTimeout(1500 * attempt);
+      await page.waitForTimeout(6000 * attempt);
     }
   }
 
