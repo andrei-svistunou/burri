@@ -7,7 +7,7 @@
   <title>Equipo FAFutsala</title>
   <meta name="description"
     content="Resumen del equipo, plantilla, estadisticas, partidos y clasificacion en una sola aplicacion ligera." />
-  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="stylesheet" href="./assets/styles.css?v=20260430" />
 </head>
 
 <body>
@@ -24,103 +24,143 @@
           <div class="hero__meta" id="hero-meta"></div>
         </div>
         <nav class="top-nav" aria-label="Secciones principales">
-          <a href="#resumen">Resumen</a>
-          <a href="#plantilla">Plantilla</a>
-          <a href="#jugadores">Jugadores</a>
-          <a href="#partidos">Partidos</a>
-          <a href="#clasificacion">Clasificación</a>
+          <a href="#resumen" data-section-link="resumen">Resumen</a>
+          <a href="#plantilla" data-section-link="plantilla">Plantilla</a>
+          <a href="#jugadores" data-section-link="jugadores">Jugadores</a>
+          <a href="#partidos" data-section-link="partidos">Partidos</a>
+          <a href="#clasificacion" data-section-link="clasificacion">Clasificación</a>
         </nav>
       </div>
     </header>
 
     <main class="layout">
-      <section class="panel panel--overview" id="resumen">
+      <section class="panel panel--overview panel--collapsible" id="resumen" data-collapsible>
         <div class="panel__header">
-          <p class="eyebrow">Resumen</p>
-          <h2>Vista rapida del equipo</h2>
-        </div>
-        <div id="overview-grid" class="overview-grid"></div>
-        <div class="team-notes">
-          <div>
-            <h3>Competición</h3>
-            <p id="team-competition"></p>
+          <div class="panel__title">
+            <p class="eyebrow">Resumen</p>
+            <h2>Vista rapida del equipo</h2>
           </div>
-          <div>
-            <h3>Fuente</h3>
-            <p>
-              Datos consolidados desde
-              <a id="source-link" href="#" target="_blank" rel="noreferrer">la pagina oficial</a>.
-            </p>
+          <button class="panel__toggle" type="button" data-section-toggle="resumen" aria-expanded="false"
+            aria-controls="resumen-content">
+            <span class="panel__toggle-label">Mostrar</span>
+          </button>
+        </div>
+        <div class="panel__body" id="resumen-content" style="display: none;">
+          <div id="overview-grid" class="overview-grid"></div>
+          <div class="team-notes">
+            <div>
+              <h3>Competición</h3>
+              <p id="team-competition"></p>
+            </div>
+            <div>
+              <h3>Fuente</h3>
+              <p>
+                Datos consolidados desde
+                <a id="source-link" href="#" target="_blank" rel="noreferrer">la pagina oficial</a>.
+              </p>
+            </div>
+            <div>
+              <h3>Última actualización</h3>
+              <p id="last-updated"></p>
+            </div>
           </div>
-          <div>
-            <h3>Última actualización</h3>
-            <p id="last-updated"></p>
+        </div>
+      </section>
+
+      <section class="panel panel--collapsible" id="plantilla" data-collapsible>
+        <div class="panel__header">
+          <div class="panel__title">
+            <p class="eyebrow">Plantilla</p>
+            <h2>Jugadores disponibles</h2>
+          </div>
+          <button class="panel__toggle" type="button" data-section-toggle="plantilla" aria-expanded="false"
+            aria-controls="plantilla-content">
+            <span class="panel__toggle-label">Mostrar</span>
+          </button>
+        </div>
+        <div class="panel__body" id="plantilla-content" style="display: none;">
+          <div id="roster-grid" class="roster-grid"></div>
+        </div>
+      </section>
+
+      <section class="panel panel--collapsible" id="jugadores" data-collapsible>
+        <div class="panel__header">
+          <div class="panel__title">
+            <p class="eyebrow">Estadisticas</p>
+            <h2>Rendimiento individual</h2>
+          </div>
+          <button class="panel__toggle" type="button" data-section-toggle="jugadores" aria-expanded="false"
+            aria-controls="jugadores-content">
+            <span class="panel__toggle-label">Mostrar</span>
+          </button>
+        </div>
+        <div class="panel__body" id="jugadores-content" style="display: none;">
+          <div class="table-shell">
+            <table>
+              <thead>
+                <tr>
+                  <th>Jugador</th>
+                  <th>Partidos jugados</th>
+                  <th>Goles totales</th>
+                  <th>Goles</th>
+                  <th>Goles en propia puerta</th>
+                  <th>Tarjetas amarillas</th>
+                  <th>Tarjetas rojas</th>
+                </tr>
+              </thead>
+              <tbody id="player-stats-body"></tbody>
+            </table>
           </div>
         </div>
       </section>
 
-      <section class="panel" id="plantilla">
+      <section class="panel panel--collapsible" id="partidos" data-collapsible>
         <div class="panel__header">
-          <p class="eyebrow">Plantilla</p>
-          <h2>Jugadores disponibles</h2>
+          <div class="panel__title">
+            <p class="eyebrow">Calendario</p>
+            <h2>Partidos y resultados</h2>
+          </div>
+          <button class="panel__toggle" type="button" data-section-toggle="partidos" aria-expanded="false"
+            aria-controls="partidos-content">
+            <span class="panel__toggle-label">Mostrar</span>
+          </button>
         </div>
-        <div id="roster-grid" class="roster-grid"></div>
-      </section>
-
-      <section class="panel" id="jugadores">
-        <div class="panel__header">
-          <p class="eyebrow">Estadisticas</p>
-          <h2>Rendimiento individual</h2>
-        </div>
-        <div class="table-shell">
-          <table>
-            <thead>
-              <tr>
-                <th>Jugador</th>
-                <th>Partidos jugados</th>
-                <th>Goles totales</th>
-                <th>Goles</th>
-                <th>Goles en propia puerta</th>
-                <th>Tarjetas amarillas</th>
-                <th>Tarjetas rojas</th>
-              </tr>
-            </thead>
-            <tbody id="player-stats-body"></tbody>
-          </table>
+        <div class="panel__body" id="partidos-content" style="display: none;">
+          <div id="matches-list" class="matches-list"></div>
         </div>
       </section>
 
-      <section class="panel" id="partidos">
+      <section class="panel panel--collapsible" id="clasificacion" data-collapsible>
         <div class="panel__header">
-          <p class="eyebrow">Calendario</p>
-          <h2>Partidos y resultados</h2>
+          <div class="panel__title">
+            <p class="eyebrow">Clasificación</p>
+            <h2>Contexto competitivo</h2>
+          </div>
+          <button class="panel__toggle" type="button" data-section-toggle="clasificacion" aria-expanded="false"
+            aria-controls="clasificacion-content">
+            <span class="panel__toggle-label">Mostrar</span>
+          </button>
         </div>
-        <div id="matches-list" class="matches-list"></div>
-      </section>
-
-      <section class="panel" id="clasificacion">
-        <div class="panel__header">
-          <p class="eyebrow">Clasificación</p>
-          <h2>Contexto competitivo</h2>
-        </div>
-        <div class="table-shell">
-          <table>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Equipo</th>
-                <th>Puntos</th>
-                <th>Partidos jugados</th>
-                <th>Victorias</th>
-                <th>Empates</th>
-                <th>Derrotas</th>
-                <th>Goles a favor</th>
-                <th>Goles en contra</th>
-                <th>Diferencia</th>
-              </tr>
-            </thead>
-            <tbody id="standings-body"></tbody>
-          </table>
+        <div class="panel__body" id="clasificacion-content" style="display: none;">
+          <div class="table-shell">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Equipo</th>
+                  <th>Puntos</th>
+                  <th>Partidos jugados</th>
+                  <th>Victorias</th>
+                  <th>Empates</th>
+                  <th>Derrotas</th>
+                  <th>Goles a favor</th>
+                  <th>Goles en contra</th>
+                  <th>Diferencia</th>
+                </tr>
+              </thead>
+              <tbody id="standings-body"></tbody>
+            </table>
+          </div>
         </div>
       </section>
     </main>
@@ -131,7 +171,7 @@
     </aside>
   </div>
 
-  <script type="module" src="./assets/app.js"></script>
+  <script type="module" src="./assets/app.js?v=20260430"></script>
 </body>
 
 </html>

@@ -225,6 +225,61 @@ textarea {
   margin-bottom: 18px;
 }
 
+.panel__title {
+  display: grid;
+  gap: 6px;
+}
+
+.panel__body {
+  display: grid;
+  gap: 18px;
+}
+
+.panel--collapsible[data-collapsed="true"] {
+  padding-bottom: 22px;
+}
+
+.panel--collapsible[data-collapsed="true"] .panel__header {
+  margin-bottom: 0;
+}
+
+.panel__toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 112px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(200, 164, 79, 0.26);
+  background: rgba(200, 164, 79, 0.08);
+  color: #f6ebc7;
+  cursor: pointer;
+}
+
+.panel__toggle::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+  transition: transform 180ms ease;
+}
+
+.panel__toggle[aria-expanded="false"]::after {
+  transform: rotate(-45deg) translateY(1px);
+}
+
+.panel__toggle:hover {
+  background: rgba(200, 164, 79, 0.16);
+}
+
+.panel__toggle:focus-visible {
+  outline: 2px solid rgba(240, 217, 138, 0.72);
+  outline-offset: 3px;
+}
+
 .panel__header h2,
 .team-notes h3,
 .drawer-card h4 {
@@ -249,10 +304,16 @@ textarea {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
-.metric-card,
 .player-card,
 .match-card {
   padding: 18px;
+  border-radius: var(--radius-md);
+  background: var(--paper-strong);
+  border: 1px solid var(--line);
+}
+
+.metric-card {
+  padding: 10px 6px;
   border-radius: var(--radius-md);
   background: var(--paper-strong);
   border: 1px solid var(--line);
@@ -283,11 +344,14 @@ textarea {
 .player-card {
   display: grid;
   gap: 12px;
+  text-align: center;
+  justify-items: center;
 }
 
 .player-card__summary {
   display: grid;
   gap: 6px;
+  justify-items: center;
 }
 
 .player-card__metrics {
@@ -306,10 +370,12 @@ textarea {
 .player-card__metrics .metric-card p {
   color: var(--accent);
   font-weight: 700;
+  text-align: center;
 }
 
 .player-card__metrics .metric-card strong {
   color: #fff2c7;
+  text-align: center;
 }
 
 .player-card h3,
@@ -377,12 +443,15 @@ tbody tr:hover {
 .match-card {
   display: grid;
   gap: 12px;
+  text-align: center;
+  justify-items: center;
 }
 
 .match-card__meta {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: center;
 }
 
 .card-actions {
@@ -555,6 +624,10 @@ tbody tr:hover {
 
   .panel__header {
     align-items: start;
+  }
+
+  .panel__toggle {
+    width: 100%;
   }
 
   .overview-grid,

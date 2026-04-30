@@ -8,12 +8,22 @@ const state = {
   team: null,
   players: [],
   matches: [],
+  sectionState: new Map(),
 };
+
+const sectionIds = [
+  "resumen",
+  "plantilla",
+  "jugadores",
+  "partidos",
+  "clasificacion",
+];
 
 const elements = {
   teamName: document.querySelector("#team-name"),
   teamSubtitle: document.querySelector("#team-subtitle"),
   heroMeta: document.querySelector("#hero-meta"),
+  topNav: document.querySelector(".top-nav"),
   overviewGrid: document.querySelector("#overview-grid"),
   rosterGrid: document.querySelector("#roster-grid"),
   playerStatsBody: document.querySelector("#player-stats-body"),
@@ -25,6 +35,7 @@ const elements = {
   drawer: document.querySelector("#detail-drawer"),
   drawerContent: document.querySelector("#drawer-content"),
   drawerClose: document.querySelector("#drawer-close"),
+  sectionPanels: Array.from(document.querySelectorAll("[data-collapsible]")),
 };
 
 const playerStatsColumns = [
@@ -190,7 +201,6 @@ function renderMatches() {
       </div>
       <p class="muted">${subline}</p>
       <div class="match-card__score">${displayScore}</div>
-      <p>${match.summary || "Sin resumen adicional."}</p>
       <div class="card-actions">
         ${match.sourceUrl ? `<a class="card-link" href="${match.sourceUrl}" target="_blank" rel="noreferrer">Resultado oficial</a>` : ""}
         <button type="button" data-match-id="${match.id}">Abrir detalle</button>
@@ -295,10 +305,6 @@ function openMatchDrawer(matchId) {
       <p class="drawer-subtitle">${[match.phase, match.dateLabel].filter(Boolean).join(" · ")}</p>
       <div class="score-band">${match.score ? `${match.score.home} - ${match.score.away}` : "Pendiente"}</div>
       <div>
-        <h4>Resumen</h4>
-        <p>${match.summary || "Sin resumen adicional."}</p>
-      </div>
-      <div>
         <h4>Detalles</h4>
         <ul class="drawer-list">
           ${details.map(([label, value]) => `<li>${label}: ${value}</li>`).join("")}
@@ -325,14 +331,72 @@ function closeDrawer() {
   elements.drawer.setAttribute("aria-hidden", "true");
 }
 
+function setSectionCollapsed(sectionId, collapsed) {
+  const section = elements.sectionPanels.find(
+    (entry) => entry.id === sectionId,
+  );
+  if (!section) {
+    return;
+  }
+
+  const body = section.querySelector(".panel__body");
+  const toggle = section.querySelector(".panel__toggle");
+  const label = section.querySelector(".panel__toggle-label");
+  if (!body || !toggle || !label) {
+    return;
+  }
+
+  body.style.display = collapsed ? "none" : "";
+  toggle.setAttribute("aria-expanded", String(!collapsed));
+  label.textContent = collapsed ? "Mostrar" : "Ocultar";
+  section.dataset.collapsed = String(collapsed);
+  state.sectionState.set(sectionId, collapsed);
+}
+
+function expandSection(sectionId) {
+  if (!sectionId) {
+    return;
+  }
+
+  setSectionCollapsed(sectionId, false);
+}
+
+function setupSectionToggles() {
+  elements.sectionPanels.forEach((section) => {
+    setSectionCollapsed(section.id, true);
+  });
+
+  elements.sectionPanels.forEach((section) => {
+    const toggle = section.querySelector("[data-section-toggle]");
+    if (!toggle) {
+      return;
+    }
+
+    toggle.addEventListener("click", () => {
+      const isCollapsed = state.sectionState.get(section.id) ?? true;
+      setSectionCollapsed(section.id, !isCollapsed);
+    });
+  });
+
+  elements.topNav?.querySelectorAll("[data-section-link]").forEach((link) => {
+    link.addEventListener("click", () => {
+      const sectionId = link.dataset.sectionLink;
+      if (sectionIds.includes(sectionId)) {
+        expandSection(sectionId);
+      }
+    });
+  });
+}
+
 function handleHashRoute() {
   const hash = window.location.hash.replace(/^#/, "");
-  if (
-    !hash ||
-    ["resumen", "plantilla", "jugadores", "partidos", "clasificacion"].includes(
-      hash,
-    )
-  ) {
+  if (!hash) {
+    closeDrawer();
+    return;
+  }
+
+  if (sectionIds.includes(hash)) {
+    expandSection(hash);
     closeDrawer();
     return;
   }
@@ -366,6 +430,7 @@ function formatDateTime(value) {
 
 async function init() {
   try {
+    setupSectionToggles();
     await loadData();
     renderHero();
     renderOverview();
