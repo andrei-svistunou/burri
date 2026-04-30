@@ -75,10 +75,32 @@ function summarizeUpcomingMatch(match) {
 }
 
 async function gotoAndSettle(page, url) {
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
-  await page
-    .waitForLoadState("networkidle", { timeout: 30000 })
-    .catch(() => {});
+  let lastError;
+
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
+      await page
+        .waitForLoadState("networkidle", { timeout: 30000 })
+        .catch(() => {});
+      return;
+    } catch (error) {
+      lastError = error;
+      const message = String(error?.message || error);
+      const shouldRetry =
+        message.includes("ERR_HTTP2_PROTOCOL_ERROR") ||
+        message.includes("ERR_NETWORK_CHANGED") ||
+        message.includes("ERR_CONNECTION_RESET");
+
+      if (!shouldRetry || attempt === 3) {
+        throw error;
+      }
+
+      await page.waitForTimeout(1500 * attempt);
+    }
+  }
+
+  throw lastError;
 }
 
 async function extractTeamMeta(page) {
@@ -255,13 +277,18 @@ async function writeJson(fileName, payload) {
 }
 
 async function main() {
-  const browser = await chromium.launch({ headless: true });
-  const teamPage = await browser.newPage({
-    viewport: { width: 1440, height: 1800 },
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--disable-http2", "--disable-blink-features=AutomationControlled"],
   });
-  const rankingPage = await browser.newPage({
+  const context = await browser.newContext({
     viewport: { width: 1440, height: 1800 },
+    locale: "es-ES",
+    userAgent:
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
   });
+  const teamPage = await context.newPage();
+  const rankingPage = await context.newPage();
 
   try {
     await gotoAndSettle(teamPage, TEAM_URL);
@@ -367,7 +394,11 @@ async function main() {
       `Imported ${players.length} players, ${playedMatches.length} results, and ${upcomingMatches.length} upcoming fixtures.`,
     );
   } finally {
-    await Promise.allSettled([teamPage.close(), rankingPage.close()]);
+    await Promise.allSettled([
+      teamPage.close(),
+      rankingPage.close(),
+      context.close(),
+    ]);
     await browser.close();
   }
 }

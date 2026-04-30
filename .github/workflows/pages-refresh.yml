@@ -48,7 +48,20 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Refresh imported data
-        run: npm run import
+        run: |
+          for attempt in 1 2 3; do
+            if npm run import; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "Import failed after 3 attempts."
+              exit 1
+            fi
+
+            echo "Import attempt $attempt failed. Retrying..."
+            sleep $((attempt * 15))
+          done
 
       - name: Commit updated JSON files
         run: |
