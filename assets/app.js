@@ -27,6 +27,29 @@ const elements = {
   drawerClose: document.querySelector("#drawer-close"),
 };
 
+const playerStatsColumns = [
+  "Jugador",
+  "Partidos jugados",
+  "Goles totales",
+  "Goles",
+  "Goles en propia puerta",
+  "Tarjetas amarillas",
+  "Tarjetas rojas",
+];
+
+const standingsColumns = [
+  "#",
+  "Equipo",
+  "Puntos",
+  "Partidos jugados",
+  "Victorias",
+  "Empates",
+  "Derrotas",
+  "Goles a favor",
+  "Goles en contra",
+  "Diferencia",
+];
+
 async function loadData() {
   const responses = await Promise.all(
     dataFiles.map((path) => fetch(path).then((response) => response.json())),
@@ -125,15 +148,22 @@ function renderPlayerStats() {
 
   players.forEach((player) => {
     const row = document.createElement("tr");
-    row.innerHTML = `
-      <td><a href="#jugador/${player.id}">${player.name}</a></td>
-      <td>${playerMetric(player, "played")}</td>
-      <td>${playerMetric(player, "totalGoals")}</td>
-      <td>${playerMetric(player, "goals")}</td>
-      <td>${playerMetric(player, "ownGoals")}</td>
-      <td>${playerMetric(player, "yellowCards")}</td>
-      <td>${playerMetric(player, "redCards")}</td>
-    `;
+    const values = [
+      `<a href="#jugador/${player.id}">${player.name}</a>`,
+      playerMetric(player, "played"),
+      playerMetric(player, "totalGoals"),
+      playerMetric(player, "goals"),
+      playerMetric(player, "ownGoals"),
+      playerMetric(player, "yellowCards"),
+      playerMetric(player, "redCards"),
+    ];
+
+    row.innerHTML = values
+      .map(
+        (value, index) =>
+          `<td data-label="${playerStatsColumns[index]}">${value}</td>`,
+      )
+      .join("");
     elements.playerStatsBody.append(row);
   });
 }
@@ -181,18 +211,25 @@ function renderStandings() {
     if (entry.team === state.team.name) {
       row.style.fontWeight = "700";
     }
-    row.innerHTML = `
-      <td>${entry.position}</td>
-      <td>${entry.team}</td>
-      <td>${entry.points}</td>
-      <td>${entry.played}</td>
-      <td>${entry.won}</td>
-      <td>${entry.drawn}</td>
-      <td>${entry.lost}</td>
-      <td>${entry.goalsFor ?? "-"}</td>
-      <td>${entry.goalsAgainst ?? "-"}</td>
-      <td>${entry.goalDifference}</td>
-    `;
+    const values = [
+      entry.position,
+      entry.team,
+      entry.points,
+      entry.played,
+      entry.won,
+      entry.drawn,
+      entry.lost,
+      entry.goalsFor ?? "-",
+      entry.goalsAgainst ?? "-",
+      entry.goalDifference,
+    ];
+
+    row.innerHTML = values
+      .map(
+        (value, index) =>
+          `<td data-label="${standingsColumns[index]}">${value}</td>`,
+      )
+      .join("");
     elements.standingsBody.append(row);
   });
 }

@@ -553,9 +553,48 @@ tbody tr:hover {
     display: grid;
   }
 
+  .panel__header {
+    align-items: start;
+  }
+
+  .overview-grid,
+  .team-notes,
+  .roster-grid,
+  .matches-list,
+  .hero__meta,
+  .player-card__metrics,
+  .drawer-card .drawer-metrics,
+  .drawer-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .top-nav {
+    flex-direction: column;
+  }
+
+  .top-nav a,
+  .card-actions .card-link,
+  .card-actions button,
+  .drawer-link,
+  .detail-drawer__close {
+    width: 100%;
+  }
+
+  .card-actions {
+    flex-direction: column;
+  }
+
   .hero__meta {
     min-width: 0;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .table-shell {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-shell table {
+    min-width: 780px;
   }
 
   .detail-drawer {
@@ -565,5 +604,27 @@ tbody tr:hover {
     bottom: 14px;
     width: auto;
     max-height: 78vh;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero {
+    border-radius: 26px;
+  }
+
+  .hero__content,
+  .panel,
+  .detail-drawer {
+    padding: 18px;
+  }
+
+  .hero__summary h1 {
+    max-width: none;
+    font-size: clamp(1.9rem, 10vw, 3rem);
+  }
+
+  .match-card__score,
+  .score-band {
+    font-size: 1.6rem;
   }
 }
