@@ -1,0 +1,370 @@
+{
+  "matches": [
+    {
+      "id": "144176879",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "REAL CLUB MEDITERRANEO \"A\"",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "Vie, 24/04/2026 19:05",
+      "venue": "CLUB MEDITERRÁNEO",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176879/results",
+      "summary": "Próximo partido contra REAL CLUB MEDITERRANEO \"A\" en CLUB MEDITERRÁNEO el Vie, 24/04/2026 19:05."
+    },
+    {
+      "id": "144176851",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "REAL CLUB MEDITERRANEO \"A\"",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176851/results",
+      "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
+    },
+    {
+      "id": "144176883",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CD TORRES DE LA SAGRADA \"B\"",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176883/results",
+      "summary": "Partido pendiente de programación contra CD TORRES DE LA SAGRADA \"B\"."
+    },
+    {
+      "id": "144176886",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "AD ASUNCIÓN “A”",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176886/results",
+      "summary": "Partido pendiente de programación contra AD ASUNCIÓN “A”."
+    },
+    {
+      "id": "144176874",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "FUTBOL SALA BENALMÁDENA (A)",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 4
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176874/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a FUTBOL SALA BENALMÁDENA (A) por 3-4."
+    },
+    {
+      "id": "144176869",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "UD CHURRIANA",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 8,
+        "away": 2
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176869/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a UD CHURRIANA por 2-8."
+    },
+    {
+      "id": "144176864",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "EMFS RINCON DE LA VICTORIA \"B\"",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 9
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176864/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante EMFS RINCON DE LA VICTORIA \"B\" por 9-3."
+    },
+    {
+      "id": "144176861",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "CD TORRES DE LA SAGRADA \"C”",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 10
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176861/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD TORRES DE LA SAGRADA \"C” por 3-10."
+    },
+    {
+      "id": "144176858",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "AD ASUNCIÓN “A”",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176858/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante AD ASUNCIÓN “A” por 3-2."
+    },
+    {
+      "id": "144176855",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "CD TORRES DE LA SAGRADA \"B\"",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 4,
+        "away": 5
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176855/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD TORRES DE LA SAGRADA \"B\" por 4-5."
+    },
+    {
+      "id": "144176846",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "FUTBOL SALA BENALMÁDENA (A)",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 5,
+        "away": 2
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176846/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a FUTBOL SALA BENALMÁDENA (A) por 2-5."
+    },
+    {
+      "id": "144176833",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CD TORRES DE LA SAGRADA \"C”",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 8,
+        "away": 6
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176833/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD TORRES DE LA SAGRADA \"C” por 6-8."
+    },
+    {
+      "id": "144176841",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "UD CHURRIANA",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176841/results",
+      "summary": "Empate de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a UD CHURRIANA por 3-3."
+    },
+    {
+      "id": "144176836",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "EMFS RINCON DE LA VICTORIA \"B\"",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 7,
+        "away": 4
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176836/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante EMFS RINCON DE LA VICTORIA \"B\" por 7-4."
+    },
+    {
+      "id": "143498544",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB TORRES DE MÁLAGA",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 6
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498544/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante CLUB TORRES DE MÁLAGA por 6-3."
+    },
+    {
+      "id": "143498540",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "REAL CLUB MEDITERRANEO \"B\"",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 10,
+        "away": 3
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498540/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante REAL CLUB MEDITERRANEO \"B\" por 10-3."
+    },
+    {
+      "id": "143498535",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "AD ASUNCIÓN “A”",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 10
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498535/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a AD ASUNCIÓN “A” por 3-10."
+    },
+    {
+      "id": "143498530",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "CD TORRES DE LA SAGRADA \"B\"",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 3,
+        "away": 5
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498530/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD TORRES DE LA SAGRADA \"B\" por 3-5."
+    },
+    {
+      "id": "143498525",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CD CULTURAL NERJA FS “A”",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 8,
+        "away": 4
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498525/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD CULTURAL NERJA FS “A” por 4-8."
+    },
+    {
+      "id": "143498522",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "CD INTER MALAGA FS “A”",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 8,
+        "away": 5
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498522/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante CD INTER MALAGA FS “A” por 8-5."
+    },
+    {
+      "id": "143498519",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "COLEGIO CERRADO CALDERON",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 10,
+        "away": 0
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/143498519/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a COLEGIO CERRADO CALDERON por 0-10."
+    }
+  ]
+}

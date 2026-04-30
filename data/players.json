@@ -1,0 +1,186 @@
+{
+  "players": [
+    {
+      "id": "53789132",
+      "name": "BENJAMIN MOTA AVELLANEDA",
+      "sourceUrl": "https://fafutsala.com/es/players/53789132",
+      "linked": true,
+      "stats": {
+        "played": 8,
+        "totalGoals": 3,
+        "goals": 3,
+        "ownGoals": 1,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53913793",
+      "name": "CORINA RIVAS GONZALEZ",
+      "sourceUrl": "https://fafutsala.com/es/players/53913793",
+      "linked": true,
+      "stats": {
+        "played": 4,
+        "totalGoals": 0,
+        "goals": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789189",
+      "name": "DANIEL GALAN GARCERAN",
+      "sourceUrl": "https://fafutsala.com/es/players/53789189",
+      "linked": true,
+      "stats": {
+        "played": 14,
+        "totalGoals": 3,
+        "goals": 3,
+        "ownGoals": 0,
+        "yellowCards": 1,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "54024707",
+      "name": "DAVID SVISTONOU",
+      "sourceUrl": "https://fafutsala.com/es/players/54024707",
+      "linked": true,
+      "stats": {
+        "played": 6,
+        "totalGoals": 7,
+        "goals": 7,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789123",
+      "name": "DOMINIQUE GARCIA FERNANDEZ",
+      "sourceUrl": "https://fafutsala.com/es/players/53789123",
+      "linked": true,
+      "stats": {
+        "played": 9,
+        "totalGoals": 0,
+        "goals": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789144",
+      "name": "DYLAN ESTEBANEZ FERNANDEZ",
+      "sourceUrl": "https://fafutsala.com/es/players/53789144",
+      "linked": true,
+      "stats": {
+        "played": 13,
+        "totalGoals": 22,
+        "goals": 22,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789179",
+      "name": "JOEL RAMOS ATENCIA",
+      "sourceUrl": "https://fafutsala.com/es/players/53789179",
+      "linked": true,
+      "stats": {
+        "played": 7,
+        "totalGoals": 11,
+        "goals": 11,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789113",
+      "name": "JORGE LEONEL RIOS ARTUBE",
+      "sourceUrl": "https://fafutsala.com/es/players/53789113",
+      "linked": true,
+      "stats": {
+        "played": 7,
+        "totalGoals": 0,
+        "goals": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53962346",
+      "name": "JOSE CARLOS GONZALEZ GONZALEZ",
+      "sourceUrl": "https://fafutsala.com/es/players/53962346",
+      "linked": true,
+      "stats": {
+        "played": 2,
+        "totalGoals": 0,
+        "goals": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789164",
+      "name": "MARIO GALAN GARCERAN",
+      "sourceUrl": "https://fafutsala.com/es/players/53789164",
+      "linked": true,
+      "stats": {
+        "played": 11,
+        "totalGoals": 9,
+        "goals": 9,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789155",
+      "name": "MILANO CASTILLO ARJONA",
+      "sourceUrl": "https://fafutsala.com/es/players/53789155",
+      "linked": true,
+      "stats": {
+        "played": 4,
+        "totalGoals": 9,
+        "goals": 9,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53789098",
+      "name": "MONICA CLAVIJO ZARAGOZA",
+      "sourceUrl": "https://fafutsala.com/es/players/53789098",
+      "linked": true,
+      "stats": {
+        "played": 6,
+        "totalGoals": 0,
+        "goals": 0,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    },
+    {
+      "id": "53962867",
+      "name": "RAFAEL DOS SANTOS CEBRIAN ARAUJO",
+      "sourceUrl": "https://fafutsala.com/es/players/53962867",
+      "linked": true,
+      "stats": {
+        "played": 4,
+        "totalGoals": 5,
+        "goals": 5,
+        "ownGoals": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
+    }
+  ]
+}

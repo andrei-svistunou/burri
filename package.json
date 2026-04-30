@@ -1,0 +1,15 @@
+{
+  "name": "fafutsala-team-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sitio estatico para presentar informacion del equipo FAFutsala.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "serve": "python3 -m http.server 4173",
+    "import": "node tools/import-team-data.js",
+    "check": "node --check tools/import-team-data.js"
+  },
+  "dependencies": {
+    "playwright": "^1.53.0"
+  }
+}

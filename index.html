@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equipo FAFutsala</title>
+  <meta name="description"
+    content="Resumen del equipo, plantilla, estadisticas, partidos y clasificacion en una sola aplicacion ligera." />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__backdrop"></div>
+      <div class="hero__content">
+        <p class="eyebrow">Panel del equipo</p>
+        <div class="hero__summary">
+          <div>
+            <h1 id="team-name">Cargando equipo...</h1>
+            <p id="team-subtitle" class="hero__subtitle"></p>
+          </div>
+          <div class="hero__meta" id="hero-meta"></div>
+        </div>
+        <nav class="top-nav" aria-label="Secciones principales">
+          <a href="#resumen">Resumen</a>
+          <a href="#plantilla">Plantilla</a>
+          <a href="#jugadores">Jugadores</a>
+          <a href="#partidos">Partidos</a>
+          <a href="#clasificacion">Clasificación</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel panel--overview" id="resumen">
+        <div class="panel__header">
+          <p class="eyebrow">Resumen</p>
+          <h2>Vista rapida del equipo</h2>
+        </div>
+        <div id="overview-grid" class="overview-grid"></div>
+        <div class="team-notes">
+          <div>
+            <h3>Competición</h3>
+            <p id="team-competition"></p>
+          </div>
+          <div>
+            <h3>Fuente</h3>
+            <p>
+              Datos consolidados desde
+              <a id="source-link" href="#" target="_blank" rel="noreferrer">la pagina oficial</a>.
+            </p>
+          </div>
+          <div>
+            <h3>Última actualización</h3>
+            <p id="last-updated"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="plantilla">
+        <div class="panel__header">
+          <p class="eyebrow">Plantilla</p>
+          <h2>Jugadores disponibles</h2>
+        </div>
+        <div id="roster-grid" class="roster-grid"></div>
+      </section>
+
+      <section class="panel" id="jugadores">
+        <div class="panel__header">
+          <p class="eyebrow">Estadisticas</p>
+          <h2>Rendimiento individual</h2>
+        </div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>Jugador</th>
+                <th>Partidos jugados</th>
+                <th>Goles totales</th>
+                <th>Goles</th>
+                <th>Goles en propia puerta</th>
+                <th>Tarjetas amarillas</th>
+                <th>Tarjetas rojas</th>
+              </tr>
+            </thead>
+            <tbody id="player-stats-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel" id="partidos">
+        <div class="panel__header">
+          <p class="eyebrow">Calendario</p>
+          <h2>Partidos y resultados</h2>
+        </div>
+        <div id="matches-list" class="matches-list"></div>
+      </section>
+
+      <section class="panel" id="clasificacion">
+        <div class="panel__header">
+          <p class="eyebrow">Clasificación</p>
+          <h2>Contexto competitivo</h2>
+        </div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Equipo</th>
+                <th>Puntos</th>
+                <th>Partidos jugados</th>
+                <th>Victorias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Goles a favor</th>
+                <th>Goles en contra</th>
+                <th>Diferencia</th>
+              </tr>
+            </thead>
+            <tbody id="standings-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <aside class="detail-drawer" id="detail-drawer" aria-hidden="true">
+      <button class="detail-drawer__close" id="drawer-close" type="button">Cerrar</button>
+      <div id="drawer-content"></div>
+    </aside>
+  </div>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+
+</html>
