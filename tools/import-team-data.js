@@ -93,7 +93,7 @@ async function gotoAndSettle(page, url) {
       await page
         .waitForLoadState("networkidle", { timeout: 45000 })
         .catch(() => {});
-      await page.waitForTimeout(2500);
+      await page.waitForTimeout(5000);
       return;
     } catch (error) {
       lastError = error;
