@@ -16,6 +16,21 @@
       "summary": "Próximo partido contra REAL CLUB MEDITERRANEO \"A\" en CLUB MEDITERRÁNEO el Vie, 24/04/2026 19:05."
     },
     {
+      "id": "144176883",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CD TORRES DE LA SAGRADA \"B\"",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "Vie, 08/05/2026 19:00",
+      "venue": "CAMPO DE FÚTBOL 26 DE FEBRERO (PISTA FS)",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176883/results",
+      "summary": "Próximo partido contra CD TORRES DE LA SAGRADA \"B\" en CAMPO DE FÚTBOL 26 DE FEBRERO (PISTA FS) el Vie, 08/05/2026 19:00."
+    },
+    {
       "id": "144176851",
       "phase": "Próximos partidos",
       "status": "upcoming",
@@ -29,21 +44,6 @@
       "score": null,
       "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176851/results",
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
-    },
-    {
-      "id": "144176883",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
-      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
-      "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "CD TORRES DE LA SAGRADA \"B\"",
-      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "isHome": false,
-      "dateLabel": "",
-      "venue": "",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176883/results",
-      "summary": "Partido pendiente de programación contra CD TORRES DE LA SAGRADA \"B\"."
     },
     {
       "id": "144176886",
