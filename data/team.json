@@ -9,7 +9,7 @@
   "category": "BENJAMIN",
   "sourceUrl": "https://fafutsala.com/es/team/15680295",
   "subtitle": "CLUB DEPORTIVO BURRITO FUTSAL · (MALAGA) BENJAMÍN PROVINCIAL · BENJAMIN FASE PREVIA GRUPO A",
-  "lastUpdated": "2026-05-08T00:23:39.119Z",
+  "lastUpdated": "2026-05-09T00:25:03.939Z",
   "heroStats": [
     {
       "label": "Jugadores",
@@ -17,11 +17,11 @@
     },
     {
       "label": "Resultados",
-      "value": "17"
+      "value": "18"
     },
     {
       "label": "Próximos",
-      "value": "4"
+      "value": "3"
     },
     {
       "label": "Posición",
@@ -35,11 +35,11 @@
     },
     {
       "label": "Balance",
-      "value": "3V · 1E · 6D"
+      "value": "3V · 1E · 7D"
     },
     {
       "label": "Goles",
-      "value": "42 a favor · 52 en contra"
+      "value": "44 a favor · 60 en contra"
     },
     {
       "label": "Temporada",
@@ -50,53 +50,53 @@
     {
       "position": 1,
       "team": "FUTBOL SALA BENALMÁDENA (A)",
-      "points": 31,
-      "played": 11,
-      "won": 10,
+      "points": 34,
+      "played": 12,
+      "won": 11,
       "drawn": 1,
       "lost": 0,
-      "goalsFor": 68,
-      "goalsAgainst": 23,
-      "goalDifference": 45,
+      "goalsFor": 74,
+      "goalsAgainst": 27,
+      "goalDifference": 47,
       "teamUrl": "https://fafutsala.com/es/team/15685239"
     },
     {
       "position": 2,
       "team": "CD TORRES DE LA SAGRADA \"B\"",
-      "points": 24,
-      "played": 11,
-      "won": 8,
+      "points": 27,
+      "played": 12,
+      "won": 9,
       "drawn": 0,
       "lost": 3,
-      "goalsFor": 73,
-      "goalsAgainst": 41,
-      "goalDifference": 32,
+      "goalsFor": 81,
+      "goalsAgainst": 43,
+      "goalDifference": 38,
       "teamUrl": "https://fafutsala.com/es/team/15681980"
     },
     {
       "position": 3,
       "team": "CD TORRES DE LA SAGRADA \"C”",
-      "points": 13,
-      "played": 10,
-      "won": 4,
+      "points": 16,
+      "played": 11,
+      "won": 5,
       "drawn": 1,
       "lost": 5,
-      "goalsFor": 56,
-      "goalsAgainst": 48,
-      "goalDifference": 8,
+      "goalsFor": 61,
+      "goalsAgainst": 50,
+      "goalDifference": 11,
       "teamUrl": "https://fafutsala.com/es/team/15762132"
     },
     {
       "position": 4,
       "team": "EMFS RINCON DE LA VICTORIA \"B\"",
       "points": 13,
-      "played": 9,
+      "played": 10,
       "won": 4,
       "drawn": 1,
-      "lost": 4,
-      "goalsFor": 56,
-      "goalsAgainst": 61,
-      "goalDifference": -5,
+      "lost": 5,
+      "goalsFor": 60,
+      "goalsAgainst": 67,
+      "goalDifference": -7,
       "teamUrl": "https://fafutsala.com/es/team/15675957"
     },
     {
@@ -116,26 +116,26 @@
       "position": 6,
       "team": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
       "points": 10,
-      "played": 10,
+      "played": 11,
       "won": 3,
       "drawn": 1,
-      "lost": 6,
-      "goalsFor": 42,
-      "goalsAgainst": 52,
-      "goalDifference": -10,
+      "lost": 7,
+      "goalsFor": 44,
+      "goalsAgainst": 60,
+      "goalDifference": -16,
       "teamUrl": "https://fafutsala.com/es/team/15680295"
     },
     {
       "position": 7,
       "team": "AD ASUNCIÓN “A”",
       "points": 10,
-      "played": 9,
+      "played": 10,
       "won": 3,
       "drawn": 1,
-      "lost": 5,
-      "goalsFor": 30,
-      "goalsAgainst": 40,
-      "goalDifference": -10,
+      "lost": 6,
+      "goalsFor": 32,
+      "goalsAgainst": 45,
+      "goalDifference": -13,
       "teamUrl": "https://fafutsala.com/es/team/15681988"
     },
     {
