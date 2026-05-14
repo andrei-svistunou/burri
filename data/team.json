@@ -9,7 +9,7 @@
   "category": "BENJAMIN",
   "sourceUrl": "https://fafutsala.com/es/team/15680295",
   "subtitle": "CLUB DEPORTIVO BURRITO FUTSAL · (MALAGA) BENJAMÍN PROVINCIAL · BENJAMIN FASE PREVIA GRUPO A",
-  "lastUpdated": "2026-05-13T14:10:00.270Z",
+  "lastUpdated": "2026-05-14T02:11:51.517Z",
   "heroStats": [
     {
       "label": "Jugadores",
@@ -76,27 +76,27 @@
     {
       "position": 3,
       "team": "CD TORRES DE LA SAGRADA \"C”",
-      "points": 16,
-      "played": 11,
-      "won": 5,
+      "points": 19,
+      "played": 12,
+      "won": 6,
       "drawn": 1,
       "lost": 5,
-      "goalsFor": 61,
-      "goalsAgainst": 50,
-      "goalDifference": 11,
+      "goalsFor": 69,
+      "goalsAgainst": 56,
+      "goalDifference": 13,
       "teamUrl": "https://fafutsala.com/es/team/15762132"
     },
     {
       "position": 4,
       "team": "EMFS RINCON DE LA VICTORIA \"B\"",
       "points": 13,
-      "played": 10,
+      "played": 11,
       "won": 4,
       "drawn": 1,
-      "lost": 5,
-      "goalsFor": 60,
-      "goalsAgainst": 67,
-      "goalDifference": -7,
+      "lost": 6,
+      "goalsFor": 66,
+      "goalsAgainst": 75,
+      "goalDifference": -9,
       "teamUrl": "https://fafutsala.com/es/team/15675957"
     },
     {
