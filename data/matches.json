@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "id": "144176879",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
-      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
-      "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "REAL CLUB MEDITERRANEO \"A\"",
-      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "isHome": false,
-      "dateLabel": "Jue, 14/05/2026 18:45",
-      "venue": "CLUB MEDITERRÁNEO",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176879/results",
-      "summary": "Próximo partido contra REAL CLUB MEDITERRANEO \"A\" en CLUB MEDITERRÁNEO el Jue, 14/05/2026 18:45."
-    },
-    {
       "id": "144176886",
       "phase": "Próximos partidos",
       "status": "upcoming",
@@ -44,6 +29,24 @@
       "score": null,
       "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176851/results",
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
+    },
+    {
+      "id": "144176879",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "REAL CLUB MEDITERRANEO \"A\"",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 6,
+        "away": 11
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176879/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante REAL CLUB MEDITERRANEO \"A\" por 11-6."
     },
     {
       "id": "144176883",

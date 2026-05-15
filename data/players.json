@@ -7,8 +7,8 @@
       "linked": true,
       "stats": {
         "played": 8,
-        "totalGoals": 3,
-        "goals": 3,
+        "totalGoals": 5,
+        "goals": 5,
         "ownGoals": 1,
         "yellowCards": 0,
         "redCards": 0
@@ -48,9 +48,9 @@
       "sourceUrl": "https://fafutsala.com/es/players/54024707",
       "linked": true,
       "stats": {
-        "played": 7,
-        "totalGoals": 8,
-        "goals": 8,
+        "played": 8,
+        "totalGoals": 10,
+        "goals": 10,
         "ownGoals": 1,
         "yellowCards": 0,
         "redCards": 0
@@ -62,7 +62,7 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789123",
       "linked": true,
       "stats": {
-        "played": 10,
+        "played": 11,
         "totalGoals": 0,
         "goals": 0,
         "ownGoals": 0,
@@ -90,9 +90,9 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789179",
       "linked": true,
       "stats": {
-        "played": 8,
-        "totalGoals": 11,
-        "goals": 11,
+        "played": 9,
+        "totalGoals": 12,
+        "goals": 12,
         "ownGoals": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -132,9 +132,9 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789164",
       "linked": true,
       "stats": {
-        "played": 12,
-        "totalGoals": 9,
-        "goals": 9,
+        "played": 13,
+        "totalGoals": 11,
+        "goals": 11,
         "ownGoals": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -146,11 +146,11 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789155",
       "linked": true,
       "stats": {
-        "played": 4,
-        "totalGoals": 9,
-        "goals": 9,
+        "played": 5,
+        "totalGoals": 11,
+        "goals": 11,
         "ownGoals": 0,
-        "yellowCards": 0,
+        "yellowCards": 1,
         "redCards": 0
       }
     },
@@ -175,8 +175,8 @@
       "linked": true,
       "stats": {
         "played": 4,
-        "totalGoals": 5,
-        "goals": 5,
+        "totalGoals": 7,
+        "goals": 7,
         "ownGoals": 0,
         "yellowCards": 0,
         "redCards": 0

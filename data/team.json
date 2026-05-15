@@ -9,7 +9,7 @@
   "category": "BENJAMIN",
   "sourceUrl": "https://fafutsala.com/es/team/15680295",
   "subtitle": "CLUB DEPORTIVO BURRITO FUTSAL · (MALAGA) BENJAMÍN PROVINCIAL · BENJAMIN FASE PREVIA GRUPO A",
-  "lastUpdated": "2026-05-14T13:30:48.962Z",
+  "lastUpdated": "2026-05-15T13:41:52.319Z",
   "heroStats": [
     {
       "label": "Jugadores",
@@ -17,29 +17,29 @@
     },
     {
       "label": "Resultados",
-      "value": "18"
+      "value": "19"
     },
     {
       "label": "Próximos",
-      "value": "3"
+      "value": "2"
     },
     {
       "label": "Posición",
-      "value": "6ª"
+      "value": "4ª"
     }
   ],
   "overview": [
     {
       "label": "Puntos",
-      "value": "10"
+      "value": "13"
     },
     {
       "label": "Balance",
-      "value": "3V · 1E · 7D"
+      "value": "4V · 1E · 7D"
     },
     {
       "label": "Goles",
-      "value": "44 a favor · 60 en contra"
+      "value": "55 a favor · 66 en contra"
     },
     {
       "label": "Temporada",
@@ -88,6 +88,19 @@
     },
     {
       "position": 4,
+      "team": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "points": 13,
+      "played": 12,
+      "won": 4,
+      "drawn": 1,
+      "lost": 7,
+      "goalsFor": 55,
+      "goalsAgainst": 66,
+      "goalDifference": -11,
+      "teamUrl": "https://fafutsala.com/es/team/15680295"
+    },
+    {
+      "position": 5,
       "team": "EMFS RINCON DE LA VICTORIA \"B\"",
       "points": 13,
       "played": 11,
@@ -100,7 +113,7 @@
       "teamUrl": "https://fafutsala.com/es/team/15675957"
     },
     {
-      "position": 5,
+      "position": 6,
       "team": "UD CHURRIANA",
       "points": 10,
       "played": 9,
@@ -111,19 +124,6 @@
       "goalsAgainst": 39,
       "goalDifference": -12,
       "teamUrl": "https://fafutsala.com/es/team/15681983"
-    },
-    {
-      "position": 6,
-      "team": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "points": 10,
-      "played": 11,
-      "won": 3,
-      "drawn": 1,
-      "lost": 7,
-      "goalsFor": 44,
-      "goalsAgainst": 60,
-      "goalDifference": -16,
-      "teamUrl": "https://fafutsala.com/es/team/15680295"
     },
     {
       "position": 7,
@@ -142,13 +142,13 @@
       "position": 8,
       "team": "REAL CLUB MEDITERRANEO \"A\"",
       "points": 3,
-      "played": 9,
+      "played": 10,
       "won": 1,
       "drawn": 0,
-      "lost": 8,
-      "goalsFor": 25,
-      "goalsAgainst": 73,
-      "goalDifference": -48,
+      "lost": 9,
+      "goalsFor": 31,
+      "goalsAgainst": 84,
+      "goalDifference": -53,
       "teamUrl": "https://fafutsala.com/es/team/15675965"
     }
   ]
