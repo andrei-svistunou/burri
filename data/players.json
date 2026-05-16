@@ -6,7 +6,7 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789132",
       "linked": true,
       "stats": {
-        "played": 8,
+        "played": 9,
         "totalGoals": 5,
         "goals": 5,
         "ownGoals": 1,
@@ -20,7 +20,7 @@
       "sourceUrl": "https://fafutsala.com/es/players/53913793",
       "linked": true,
       "stats": {
-        "played": 4,
+        "played": 5,
         "totalGoals": 0,
         "goals": 0,
         "ownGoals": 0,
@@ -34,7 +34,7 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789189",
       "linked": true,
       "stats": {
-        "played": 15,
+        "played": 16,
         "totalGoals": 3,
         "goals": 3,
         "ownGoals": 0,
@@ -62,7 +62,7 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789123",
       "linked": true,
       "stats": {
-        "played": 11,
+        "played": 12,
         "totalGoals": 0,
         "goals": 0,
         "ownGoals": 0,
@@ -76,9 +76,9 @@
       "sourceUrl": "https://fafutsala.com/es/players/53789144",
       "linked": true,
       "stats": {
-        "played": 13,
-        "totalGoals": 23,
-        "goals": 23,
+        "played": 14,
+        "totalGoals": 24,
+        "goals": 24,
         "ownGoals": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -175,8 +175,8 @@
       "linked": true,
       "stats": {
         "played": 4,
-        "totalGoals": 7,
-        "goals": 7,
+        "totalGoals": 8,
+        "goals": 8,
         "ownGoals": 0,
         "yellowCards": 0,
         "redCards": 0

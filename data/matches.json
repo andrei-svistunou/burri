@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "id": "144176886",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
-      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
-      "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "awayTeam": "AD ASUNCIÓN “A”",
-      "isHome": true,
-      "dateLabel": "Vie, 15/05/2026 19:30",
-      "venue": "PISTA DAVID BURRITO",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176886/results",
-      "summary": "Próximo partido contra AD ASUNCIÓN “A” en PISTA DAVID BURRITO el Vie, 15/05/2026 19:30."
-    },
-    {
       "id": "144176851",
       "phase": "Próximos partidos",
       "status": "upcoming",
@@ -29,6 +14,24 @@
       "score": null,
       "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176851/results",
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
+    },
+    {
+      "id": "144176886",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "AD ASUNCIÓN “A”",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 5,
+        "away": 4
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176886/results",
+      "summary": "Victoria de CLUB DEPORTIVO BURRITO FUTSAL \"B\" ante AD ASUNCIÓN “A” por 5-4."
     },
     {
       "id": "144176879",
