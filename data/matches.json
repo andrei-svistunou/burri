@@ -16,6 +16,36 @@
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
     },
     {
+      "id": "144944899",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CD CULTURAL NERJA FS “A”",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944899/results",
+      "summary": "Partido pendiente de programación contra CD CULTURAL NERJA FS “A”."
+    },
+    {
+      "id": "144944898",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "CD CULTURAL NERJA FS “A”",
+      "isHome": true,
+      "dateLabel": "",
+      "venue": "",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944898/results",
+      "summary": "Partido pendiente de programación contra CD CULTURAL NERJA FS “A”."
+    },
+    {
       "id": "144176886",
       "phase": "Últimos resultados",
       "status": "played",
