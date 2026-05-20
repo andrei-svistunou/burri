@@ -9,7 +9,7 @@
   "category": "BENJAMIN",
   "sourceUrl": "https://fafutsala.com/es/team/15680295",
   "subtitle": "CLUB DEPORTIVO BURRITO FUTSAL · (MALAGA) BENJAMÍN PROVINCIAL · BENJAMIN FASE PREVIA GRUPO A",
-  "lastUpdated": "2026-05-19T12:58:57.652Z",
+  "lastUpdated": "2026-05-20T00:30:14.030Z",
   "heroStats": [
     {
       "label": "Jugadores",
@@ -115,14 +115,14 @@
     {
       "position": 6,
       "team": "UD CHURRIANA",
-      "points": 10,
-      "played": 10,
-      "won": 3,
+      "points": 13,
+      "played": 11,
+      "won": 4,
       "drawn": 1,
       "lost": 6,
-      "goalsFor": 29,
+      "goalsFor": 39,
       "goalsAgainst": 46,
-      "goalDifference": -17,
+      "goalDifference": -7,
       "teamUrl": "https://fafutsala.com/es/team/15681983"
     },
     {
@@ -142,13 +142,13 @@
       "position": 8,
       "team": "REAL CLUB MEDITERRANEO \"A\"",
       "points": 3,
-      "played": 11,
+      "played": 12,
       "won": 1,
       "drawn": 0,
-      "lost": 10,
+      "lost": 11,
       "goalsFor": 36,
-      "goalsAgainst": 97,
-      "goalDifference": -61,
+      "goalsAgainst": 107,
+      "goalDifference": -71,
       "teamUrl": "https://fafutsala.com/es/team/15675965"
     }
   ]
