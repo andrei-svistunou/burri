@@ -9,7 +9,7 @@
   "category": "BENJAMIN",
   "sourceUrl": "https://fafutsala.com/es/team/15680295",
   "subtitle": "CLUB DEPORTIVO BURRITO FUTSAL · (MALAGA) BENJAMÍN PROVINCIAL · BENJAMIN FASE PREVIA GRUPO A",
-  "lastUpdated": "2026-05-21T13:01:14.737Z",
+  "lastUpdated": "2026-05-22T00:28:29.916Z",
   "heroStats": [
     {
       "label": "Jugadores",
@@ -129,26 +129,26 @@
       "position": 7,
       "team": "AD ASUNCIÓN “A”",
       "points": 10,
-      "played": 11,
+      "played": 12,
       "won": 3,
       "drawn": 1,
-      "lost": 7,
-      "goalsFor": 36,
-      "goalsAgainst": 50,
-      "goalDifference": -14,
+      "lost": 8,
+      "goalsFor": 38,
+      "goalsAgainst": 62,
+      "goalDifference": -24,
       "teamUrl": "https://fafutsala.com/es/team/15681988"
     },
     {
       "position": 8,
       "team": "REAL CLUB MEDITERRANEO \"A\"",
-      "points": 3,
-      "played": 12,
-      "won": 1,
+      "points": 6,
+      "played": 13,
+      "won": 2,
       "drawn": 0,
       "lost": 11,
-      "goalsFor": 36,
-      "goalsAgainst": 107,
-      "goalDifference": -71,
+      "goalsFor": 48,
+      "goalsAgainst": 109,
+      "goalDifference": -61,
       "teamUrl": "https://fafutsala.com/es/team/15675965"
     }
   ]
