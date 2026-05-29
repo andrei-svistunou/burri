@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "id": "144944898",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
-      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
-      "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "awayTeam": "CD CULTURAL NERJA FS “A”",
-      "isHome": true,
-      "dateLabel": "Jue, 28/05/2026 20:00",
-      "venue": "PISTA DAVID BURRITO",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944898/results",
-      "summary": "Próximo partido contra CD CULTURAL NERJA FS “A” en PISTA DAVID BURRITO el Jue, 28/05/2026 20:00."
-    },
-    {
       "id": "144944899",
       "phase": "Próximos partidos",
       "status": "upcoming",
@@ -29,6 +14,21 @@
       "score": null,
       "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944899/results",
       "summary": "Próximo partido contra CD CULTURAL NERJA FS “A” en PABELLÓN DAVID CASANOVA el Vie, 29/05/2026 18:00."
+    },
+    {
+      "id": "144932527",
+      "phase": "Próximos partidos",
+      "status": "upcoming",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "FUTBOL SALA BENALMÁDENA (A)",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "Lun, 01/06/2026 17:00",
+      "venue": "ÍES ARROYO LA MIEL",
+      "score": null,
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144932527/results",
+      "summary": "Próximo partido contra FUTBOL SALA BENALMÁDENA (A) en ÍES ARROYO LA MIEL el Lun, 01/06/2026 17:00."
     },
     {
       "id": "144176851",
@@ -46,19 +46,22 @@
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
     },
     {
-      "id": "144932527",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
+      "id": "144944898",
+      "phase": "Últimos resultados",
+      "status": "played",
       "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
       "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "FUTBOL SALA BENALMÁDENA (A)",
-      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "isHome": false,
+      "homeTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "awayTeam": "CD CULTURAL NERJA FS “A”",
+      "isHome": true,
       "dateLabel": "",
       "venue": "",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144932527/results",
-      "summary": "Partido pendiente de programación contra FUTBOL SALA BENALMÁDENA (A)."
+      "score": {
+        "home": 5,
+        "away": 5
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944898/results",
+      "summary": "Empate de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD CULTURAL NERJA FS “A” por 5-5."
     },
     {
       "id": "144176886",
