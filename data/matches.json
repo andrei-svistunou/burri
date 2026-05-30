@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "id": "144944899",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
-      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
-      "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "CD CULTURAL NERJA FS “A”",
-      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "isHome": false,
-      "dateLabel": "Vie, 29/05/2026 18:00",
-      "venue": "PABELLÓN DAVID CASANOVA",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944899/results",
-      "summary": "Próximo partido contra CD CULTURAL NERJA FS “A” en PABELLÓN DAVID CASANOVA el Vie, 29/05/2026 18:00."
-    },
-    {
       "id": "144932527",
       "phase": "Próximos partidos",
       "status": "upcoming",
@@ -44,6 +29,24 @@
       "score": null,
       "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176851/results",
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
+    },
+    {
+      "id": "144944899",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "CD CULTURAL NERJA FS “A”",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 8,
+        "away": 2
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144944899/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a CD CULTURAL NERJA FS “A” por 2-8."
     },
     {
       "id": "144944898",
