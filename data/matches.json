@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "id": "144932527",
-      "phase": "Próximos partidos",
-      "status": "upcoming",
-      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
-      "group": "BENJAMIN FASE PREVIA GRUPO A",
-      "homeTeam": "FUTBOL SALA BENALMÁDENA (A)",
-      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
-      "isHome": false,
-      "dateLabel": "Lun, 01/06/2026 17:00",
-      "venue": "ÍES ARROYO LA MIEL",
-      "score": null,
-      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144932527/results",
-      "summary": "Próximo partido contra FUTBOL SALA BENALMÁDENA (A) en ÍES ARROYO LA MIEL el Lun, 01/06/2026 17:00."
-    },
-    {
       "id": "144176851",
       "phase": "Próximos partidos",
       "status": "upcoming",
@@ -29,6 +14,24 @@
       "score": null,
       "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144176851/results",
       "summary": "Partido pendiente de programación contra REAL CLUB MEDITERRANEO \"A\"."
+    },
+    {
+      "id": "144932527",
+      "phase": "Últimos resultados",
+      "status": "played",
+      "competition": "(MALAGA) BENJAMÍN PROVINCIAL",
+      "group": "BENJAMIN FASE PREVIA GRUPO A",
+      "homeTeam": "FUTBOL SALA BENALMÁDENA (A)",
+      "awayTeam": "CLUB DEPORTIVO BURRITO FUTSAL \"B\"",
+      "isHome": false,
+      "dateLabel": "",
+      "venue": "",
+      "score": {
+        "home": 6,
+        "away": 0
+      },
+      "sourceUrl": "https://fafutsala.com/es/tournament/1321813/match/144932527/results",
+      "summary": "Derrota de CLUB DEPORTIVO BURRITO FUTSAL \"B\" frente a FUTBOL SALA BENALMÁDENA (A) por 0-6."
     },
     {
       "id": "144944899",
